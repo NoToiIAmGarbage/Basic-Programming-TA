@@ -1,1 +1,1 @@
-# Just a git for my programming class's exercises.
+# Just a git repo for my programming class's exercises.
