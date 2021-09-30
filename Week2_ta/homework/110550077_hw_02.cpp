@@ -10,6 +10,6 @@ int main() {
 	height /= 100.0;
 	float BMI = weight / height / height;
 	printf("BMI:%.2f\n", BMI);
-	BMI = (int)(BMI + 0.4);
+	BMI = (int)(BMI + 0.5);
 	printf("BMI after rounding:%.2f", BMI);
 }
