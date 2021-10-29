@@ -55,6 +55,7 @@ char map(char* arr, int m) {
 }
 int main() {
     freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
     while(scanf("%s", str) != EOF) {
         int siz = strlen(str), m = 0, now = 1;
         for(int i = 1; i < siz; i ++) {
