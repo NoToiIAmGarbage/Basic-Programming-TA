@@ -13,8 +13,10 @@ int main() {
 		V.push_back(str);
 	}
 	int n; cin >> n;
+	getchar();
 	for(int i = 0; i < n; i ++) {
-		string str; cin >> str;
+		string str;
+		getline(cin, str);
 		tar.push_back(str);
 	}
 	for(string str : V) {
