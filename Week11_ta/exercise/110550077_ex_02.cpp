@@ -4,7 +4,11 @@
 using namespace std;
 int d, arr1[100005], arr2[100005];
 int* merge(int* ptr1, int size1, int* ptr2, int size2) {
+<<<<<<< HEAD
 	int* res = (int*)malloc((size1 + size2 + 5) * sizeof(int));
+=======
+	int* res = (int*)malloc((size1 + size2) * sizeof(int) + 5);
+>>>>>>> 868fbc6c5f0f4f8a1c86f322baea1543375f114f
 	int ind1 = 0, ind2 = 0, m = 1;
 	while(ind1 < size1 && ind2 < size2) {
 		if(ptr1[ind1] < ptr2[ind2]) {
